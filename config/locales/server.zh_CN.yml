@@ -1,0 +1,10 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+zh_CN:
+  site_settings:
+    kpop_dates_enabled: "启用 K-pop 日期功能，并显示艺人出道日与组合周年列表。"
+    kpop_dates_birthday_enabled: "启用艺人生日列表与相关 D-Day 功能。"

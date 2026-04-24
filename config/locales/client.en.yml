@@ -1,0 +1,97 @@
+en:
+  js:
+    kpop_dates:
+      none: " "
+      title: K-pop Dates
+      follow: "Follow"
+      following: "Following"
+      my_follows: "My Follows"
+      no_follows: "You are not following any artists or groups yet."
+      ritual:
+        aria_label: "K-pop D-Day cheering banner"
+        eyebrow: "Today's announcement"
+        channel_label: "Channel"
+        live_label: "On air"
+        title: "A followed artist has a D-Day today"
+        body: "%{name} is %{label} today. Join the celebration if you want to cheer together."
+        cta: "Open cheering topic"
+        track_label: "Cheer feed"
+        feed_empty: "Signal is live. Waiting for the first cheer to come through."
+      date_formats:
+        short: "MMM D"
+        full_with_year: "MMM D, YYYY"
+      events:
+        birthday: "Birthday"
+        debut: "Debut"
+        foundation: "Foundation"
+      today: "Today"
+      tomorrow: "Tomorrow"
+      upcoming: "Upcoming"
+      all: "All"
+      birthdays:
+        title: "Artist Birthdays"
+        month:
+          title: "Artist Birthdays in the Month of"
+          empty: "There are no artists celebrating their birthdays this month."
+        upcoming:
+          title: "Artist Birthdays for %{start_date} - %{end_date}"
+          empty: "There are no artists celebrating their birthdays in the next 7 days."
+        today:
+          title: "Artist Birthdays for %{date}"
+          empty: "There are no artists celebrating their birthdays today."
+        tomorrow:
+          title: "Artist Birthdays for %{date}"
+          empty: "There are no artists celebrating their birthdays tomorrow."
+      anniversaries:
+        title: "Debut & Foundation Days"
+        month:
+          title: "Debut & Foundation Days in the Month of"
+          empty: "There are no artists or groups celebrating their debut or foundation days this month."
+        upcoming:
+          title: "Debut & Foundation Days for %{start_date} - %{end_date}"
+          empty: "There are no artists or groups celebrating their debut or foundation days in the next 7 days."
+        today:
+          title: "Debut & Foundation Days for %{date}"
+          empty: "There are no artists or groups celebrating their debut or foundation days today."
+        tomorrow:
+          title: "Debut & Foundation Days for %{date}"
+          empty: "There are no artists or groups celebrating their debut or foundation days tomorrow."
+    discourse_kpop_dates:
+      admin:
+        kpop_entities:
+          title: "K-pop Entities"
+          new: "New Entity"
+          edit: "Edit"
+          empty: "No entities found."
+          columns:
+            name: "Name"
+            kind: "Kind"
+            active: "Active"
+          values:
+            yes: "Yes"
+            no: "No"
+          form:
+            display_name: "Display name"
+            native_name: "Native name"
+            slug: "Slug"
+            entity_kind: "Entity kind"
+            entity_kind_solo: "Solo"
+            entity_kind_group: "Group"
+            active: "Active"
+            birthday_month: "Birthday month"
+            birthday_day: "Birthday day"
+            birthday_year: "Birthday year"
+            anniversary_month: "Anniversary month"
+            anniversary_day: "Anniversary day"
+            anniversary_year: "Anniversary year"
+            delete_confirm: "Are you sure you want to delete this entity?"
+          import:
+            choose_file: "Choose JSON"
+            submit: "Import JSON"
+            invalid_json: "The selected file does not contain valid JSON."
+            success: "Import complete: %{created} created, %{updated} updated, %{skipped} skipped, %{errors} errors"
+            summary: "Created: %{created}, Updated: %{updated}, Skipped: %{skipped}, Errors: %{errors}"
+          filters:
+            search: "Search entities"
+            all_kinds: "All kinds"
+            all_states: "All states"

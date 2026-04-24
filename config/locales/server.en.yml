@@ -1,0 +1,7 @@
+en:
+  admin:
+    discourse_kpop_dates:
+      title: "K-pop Dates"
+  site_settings:
+    kpop_dates_enabled: "Show K-pop date badges for artist birthdays, solo debuts, and group foundations. In this plugin mode, anniversaries mean solo debuts and group foundations."
+    kpop_dates_birthday_enabled: "Show artist birthday badges in the K-pop dates lists."

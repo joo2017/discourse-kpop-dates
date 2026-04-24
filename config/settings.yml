@@ -1,0 +1,7 @@
+plugins:
+  kpop_dates_enabled:
+    default: false
+    client: true
+  kpop_dates_birthday_enabled:
+    default: false
+    client: true

@@ -1,0 +1,102 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+zh_CN:
+  js:
+    kpop_dates:
+      title: 纪念日
+      follow: "关注"
+      following: "已关注"
+      my_follows: "我的关注"
+      no_follows: "你还没有关注任何艺人或组合。"
+      ritual:
+        aria_label: "K-pop D-Day 应援横幅"
+        eyebrow: "今日公告"
+        channel_label: "频道"
+        live_label: "直播中"
+        title: "你关注的艺人今天迎来 D-Day"
+        body: "%{name} 今天是 %{label}。如果想一起应援，可以前往对应话题。"
+        cta: "打开应援话题"
+        track_label: "应援讯号"
+        feed_empty: "信号已接通，等待第一条应援留言。"
+      today: "今天"
+      tomorrow: "明天"
+      upcoming: "即将到来"
+      all: "所有"
+      date_formats:
+        short: "M月D日"
+        full_with_year: "YYYY年M月D日"
+      events:
+        birthday: "生日"
+        debut: "出道日"
+        foundation: "出道日"
+      birthdays:
+        title: "艺人生日"
+        month:
+          title: "生日"
+          empty: "该月份没有生日条目。"
+        upcoming:
+          title: "%{start_date} - %{end_date}的生日"
+          empty: "接下来 7 天没有用户过生日。"
+        today:
+          title: "%{date}的生日"
+          empty: "今天没有用户过生日。"
+        tomorrow:
+          title: "%{date}的生日"
+          empty: "明天没有用户过生日。"
+      anniversaries:
+        title: "艺人周年"
+        month:
+          title: "周年纪念日"
+          empty: "该月份没有周年纪念条目。"
+        upcoming:
+          title: "%{start_date} - %{end_date}的周年纪念日"
+          empty: "接下来 7 天没有用户庆祝周年纪念日。"
+        today:
+          title: "%{date}的周年纪念日"
+          empty: "今天没有用户庆祝周年纪念日。"
+        tomorrow:
+          title: "%{date}的周年纪念日"
+          empty: "明天没有用户庆祝周年纪念日。"
+    discourse_kpop_dates:
+      admin:
+        kpop_entities:
+          title: "K-pop 条目"
+          new: "新建条目"
+          edit: "编辑"
+          empty: "暂无条目。"
+          columns:
+            name: "名称"
+            kind: "类型"
+            active: "启用"
+          values:
+            yes: "是"
+            no: "否"
+          form:
+            display_name: "显示名称"
+            native_name: "原文名称"
+            slug: "Slug"
+            entity_kind: "条目类型"
+            entity_kind_solo: "个人"
+            entity_kind_group: "组合"
+            active: "启用"
+            birthday_month: "生日月份"
+            birthday_day: "生日日期"
+            birthday_year: "生日年份"
+            anniversary_month: "纪念月份"
+            anniversary_day: "纪念日期"
+            anniversary_year: "纪念年份"
+            delete_confirm: "确定要删除这个条目吗？"
+          import:
+            choose_file: "选择 JSON 文件"
+            submit: "导入 JSON"
+            invalid_json: "所选文件不是有效的 JSON。"
+            success: "导入完成：新增 %{created} 条，更新 %{updated} 条，跳过 %{skipped} 条，错误 %{errors} 条"
+            summary: "新增：%{created}，更新：%{updated}，跳过：%{skipped}，错误：%{errors}"
+          filters:
+            search: "搜索条目"
+            all_kinds: "所有类型"
+            all_states: "所有状态"
